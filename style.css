@@ -1,0 +1,140 @@
+
+
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Header */
+header{
+    padding: 10px 78px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%)
+
+}
+
+header .log img{
+    width: 79px;
+
+
+}
+
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px 8px;
+    margin: 0 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar li:last-child a{
+    padding-right: 0;
+
+}
+
+.navbar li a{
+    transition: color ease 0.8s;
+}
+
+.navbar li:hover a{
+    color: #F70142;
+
+}
+
+.navbar li.active a{
+    border-bottom: 2px solid #F70142;
+
+}
+
+.porsche{
+    position: relative;
+}
+
+
+.porsche img{
+    width: 100%;
+}
+
+.porsche .porsche-info h1{
+    color: white;
+    font-size: 74px;
+    line-height: 74px;
+    font-weight: 900;
+    margin-bottom: 32px;
+
+}
+
+.porsche .porsche-info h1 span{
+    font-size: 38px;
+    font-weight: 400;
+    display: block;
+
+}
+
+.porsche .porsche-info{
+    position: absolute;
+    top: 50%;
+    left: 78px;
+    transform: translateY(-50%);
+    max-width: 405px;
+}
+
+.porsche .porsche-info .cta-btn{
+    background: #F70142;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 24px;
+    transition: background-color ease 0.5s;
+
+
+
+}
+
+.porsche .porsche-info .cta-btn:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
